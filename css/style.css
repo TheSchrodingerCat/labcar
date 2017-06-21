@@ -40,3 +40,15 @@
 .driver{
 	color: white;
 }
+
+
+/*---------------------------------- TARIFAS ----------------------------------------*/
+.tarifas{
+	background: #f7b617;
+	color: white;
+}
+
+/*queda pendiente cargar el mapa*/
+#map{
+	height: 50vh;
+}
