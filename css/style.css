@@ -1,0 +1,18 @@
+
+/*---------------------------- NAV ------------------------------------------*/
+
+
+
+
+/*----------------------------- HERO -----------------------------------------*/
+.mi-header{
+	height: 100vh;
+	background: url(../assets/img/taxi.jpg);
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+.registro{
+	background: #f7b617;
+}
