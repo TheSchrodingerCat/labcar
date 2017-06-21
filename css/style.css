@@ -25,3 +25,18 @@
 	background: #f7b617;
 	color: white;
 }
+
+
+
+/*------------------------------ CONDUCE ---------------------------------------------*/
+.conduce{
+	height: 50vh;
+	background: url(../assets/img/conduce.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.driver{
+	color: white;
+}
