@@ -24,14 +24,14 @@
 					<span class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="#">
-					<img src="assets/img/logo.png" alt="">
+					<img src="assets/img/logo.png" alt="...">
 				</a>
 			</div>
 
 			<!-- links a la derecha -->
 			<div class="collapse navbar-collapse" id="mi-navbar">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Viaja</a></li>
+					<li><a href="#">Viaja <span class="sr-only">(current)</span></a></li>
 					<li><a href="#">Conduce</a></li>
 					<li><a href="#">Inicia Sesión</a></li>
 				</ul>
@@ -101,9 +101,10 @@
 				<div class="col-sm-12 col-xs-12 hidden-lg hidden-md">
 					<div class="container">
 						<div class="col-sm-12 col-xs-12">
+							<h4>La nueva app</h4>
 							<img src="assets/img/celular.png" alt="" class="img-responsive">
 						</div>
-						<h4>Llega a tu destino aún más rápido</h4>
+						<h3>Llega a tu destino aún más rápido</h3>
 					</div>
 				</div>
 			</div>
@@ -137,9 +138,13 @@
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 					<h4>Tarifas</h4>
 					<p>Consulta las tarifas LabCar aquí</p>
-					<span><img src="assets/img/circulo.png" alt="..."></span><input type="text"><br>
-					<span><img src="assets/img/flecha.png" alt="..."></span><input type="text"><br>
+					<span><img src="assets/img/circulo.png" alt="..."></span>
+					<input type="text" id="origen"><br>
+					<span><img src="assets/img/flecha.png" alt="..."></span>
+					<input type="text" id="destino"><br>
 					<button class="btn" id="route">¡TRAZAR RUTA!</button>
+
+					<!-- falta agregar tarifas para versión mobile -->
 				</div>
 				<div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
 					<!-- acá llamaremos al mapa -->
@@ -231,7 +236,8 @@
 	</footer>
 
 
-	<!--<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJY6BfshlqgPdz-PqPw3FZxYAjqEbWsq4&callback=initMap&libraries=places"></script>-->
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJY6BfshlqgPdz-PqPw3FZxYAjqEbWsq4&callback=initMap&libraries=places"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js/app.js"></script>
 </body>
