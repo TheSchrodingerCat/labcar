@@ -18,6 +18,11 @@ body{
 	margin-top: 6%;
 }
 
+.line-footer{
+	border: 1px solid grey;
+	margin: 2% 0;
+}
+
 .mt{
 	margin-top: 9%;
 }

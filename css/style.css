@@ -10,6 +10,9 @@
 	width: 80%;
 }
 
+.links-nav{
+	margin: 11% 0;
+}
 
 
 /*----------------------------- HERO -----------------------------------------*/
@@ -101,7 +104,7 @@
 
 /*------------------------------ CONDUCE ---------------------------------------------*/
 .conduce{
-	height: 50vh;
+	height: 64vh;
 	background: url(../assets/img/conduce.jpg);
 	background-size: cover;
 	background-position: center;
@@ -109,7 +112,21 @@
 }
 
 .driver{
+	padding: 6% 3%;
+	height: 64vh;
+	background: rgba(0, 0, 0, 0.6);
 	color: white;
+}
+
+.labcar-option{
+	font-size: 120%;
+}
+
+#conviertete{
+	background: #f7b617;
+	margin-top: 2%;
+	font-weight: bold;
+	padding: 2% 4%;
 }
 
 
@@ -119,10 +136,51 @@
 	color: white;
 }
 
+.cont-map{
+	width: 90%;
+	padding: 2%;
+	margin: 8% 5% 8% 0;
+	border: 1px solid white;
+}
+
 #map{
 	width: 100%;
-	height: 50vh;
+	height: 60vh;
+}
+
+.cont-tarifas{
+	padding: 6% 7%;
+}
+
+.size-tarifas{
+	font-size: 5vh;
+}
+
+.consulta{
+	font-size: 120%;
+}
+
+#circulo, #flecha{
+	margin-right: 4%;
+}
+
+input{
+	width: 70%;
+	padding: 2%;
+	background: #f7b617;
 	border: 1px solid white;
+	border-radius: 8px;
+}
+
+#route{
+	background: white;
+	border: white;
+	color: black;
+	font-weight: bold;
+}
+
+.cont-route{
+	margin-left: 30%;
 }
 
 
@@ -130,4 +188,48 @@
 footer{
 	background: #2b2b2b;
 	color: white;
+	padding: 5% 7%;
+}
+
+.cont-nets{
+	margin-top: 29%;
+}
+
+.nets{
+	width: 3vh;
+	background: #2b2b2b;
+	border: #2b2b2b;
+}
+
+.list-one, .list-two{
+	list-style: none;
+}
+
+.li-foot{
+	margin: 8% 0;
+}
+
+.links-footer{
+	text-decoration: none;
+	color: white;
+	margin: 5% 0;
+}
+
+.links-footer:hover{
+	text-decoration: none;
+	color: #f7b617;
+	transition: 0.5s
+}
+
+.space-footer{
+	height: 25vh;
+}
+
+.logos-footer{
+	margin-top: 20%;
+}
+
+.img-logos{
+	width: 24vh;
+	margin: 3% 0;
 }
