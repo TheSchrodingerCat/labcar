@@ -19,6 +19,34 @@ function initMap(){
 	var autocompleteFin = new google.maps.places.Autocomplete(fin);
 	autocompleteFin.bindTo("bounds",map)
 
+	//para encontrarme
+	window.onload = function(){
+
+		var latitud, longitud;
+		var funcionExito = function(posicion){
+			latitud = posicion.coords.latitude;
+			longitud = posicion.coords.longitude;
+
+			var miUbicacion = new google.maps.Marker({
+				position: {lat:latitud, lng:longitud},
+				animation: google.maps.Animation.DROP,
+				map: map
+			});
+
+			map.setZoom(17);
+			map.setCenter({lat:latitud, lng:longitud});
+		}
+
+		var funcionError = function (error){
+			alert("Tenemos un problema con encontrar tu ubicación");
+		}
+
+		if (navigator.geolocation){
+			navigator.geolocation.getCurrentPosition(funcionExito,funcionError);
+		}
+	}
+
+	//para trazar la ruta
 	document.getElementById("route").addEventListener("click",marcar);
 
 	var geocoder = new google.maps.Geocoder();

@@ -1,12 +1,20 @@
 
 /*---------------------------- NAV ------------------------------------------*/
+.navbar-default{
+	background: white;
+	border: none;
+	padding: 2% 8% 2% 10%;
+}
 
+.mi-logo{
+	width: 80%;
+}
 
 
 
 /*----------------------------- HERO -----------------------------------------*/
 .mi-header{
-	height: 100vh;
+	height: 110vh;
 	background: url(../assets/img/taxi.jpg);
 	background-size: cover;
 	background-position: bottom;
@@ -14,18 +22,81 @@
 }
 
 .registro{
+	margin-top: 20%;
+	padding: 4% 7% 8% 7%;
 	background: #f7b617;
 	color: white;
+	position: relative;
+	left: 3%;
 }
 
+.titulos-registro{
+	padding-bottom: 8%;
+}
+
+.texto{
+	font-size: 3vh;
+}
+
+.logo-blanco{
+	width: 20%;
+	margin-left: 2%;
+}
+
+.title-reg{
+	font-size: 5vh;
+}
+
+.registrate{
+	margin: 4% 0;
+}
+
+#registro{
+	color: black;
+	font-weight: bolder;
+	background: white;
+	padding: 2%;
+}
 
 
 /*-----------------------------INFORMACION ---------------------------------------*/
 .info{
+	padding: 3% 0;
 	background: #f7b617;
 	color: white;
 }
 
+.encuadre{
+	border: 1px solid white;
+	left: -1px;
+	padding: 3%;
+}
+
+.encuadre2{
+	margin: 2% 4%;
+	border: 1px solid white;
+	padding: 8% 3%;
+}
+
+.new-app{
+	font-size: 5vw;
+}
+
+.new-app2{
+	font-size: 4vw;
+}
+
+.celu{
+	width: 70%;
+}
+
+.cont-info{
+	padding-right: 13%;
+}
+
+.letter-info{
+	font-size: 150%;
+}
 
 
 /*------------------------------ CONDUCE ---------------------------------------------*/
