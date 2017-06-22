@@ -6,6 +6,10 @@
 	padding: 2% 8% 2% 10%;
 }
 
+.glyphicon-menu-hamburger{
+	border: white;
+}
+
 .mi-logo{
 	width: 80%;
 }
@@ -181,6 +185,10 @@ input{
 
 .cont-route{
 	margin-left: 30%;
+}
+
+.resultados{
+	height: 3vh;
 }
 
 
